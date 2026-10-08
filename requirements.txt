@@ -1,0 +1,12 @@
+# Core (all three models)
+torch>=1.13
+numpy>=1.21
+h5py>=3.6
+tifffile>=2021.11.2
+tqdm>=4.62
+
+# SegFormer only (MiT-B2 backbone comes from HuggingFace transformers)
+transformers>=4.30
+
+# Optional: figures produced by the paper plotting scripts
+matplotlib>=3.5
